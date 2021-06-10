@@ -229,7 +229,7 @@ void Agac::ilkGenislikAra(const char ogrno[15])
 	while (!kuyruk.empty())
 	{
 		sayac++;
-		p = kuyruk.back();
+		p = kuyruk.front();
 		kuyruk.pop();
 		if (strcmp(ogrno, p->ogrno) == 0)
 		{
