@@ -83,7 +83,7 @@ void menu()
 		switch (std::toupper(veriAl<char>("seciminiz:")))
 		{
 		case 'R':
-			altmenu().postorderTara();
+			altmenu().preorderTara();
 			break;
 		case 'I':
 			altmenu().inorderTara();
